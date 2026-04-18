@@ -1,0 +1,55 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="brandGradient" x1="160" y1="120" x2="380" y2="380" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#7A35FF"/>
+<stop offset="100%" stop-color="#3C0AB4"/>
+</linearGradient>
+<linearGradient id="aquaGradient" x1="160" y1="720" x2="380" y2="980" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#63C7FF"/>
+<stop offset="100%" stop-color="#73FFB4"/>
+</linearGradient>
+<filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+<feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#2F0B85" flood-opacity="0.14"/>
+</filter>
+<mask id="logoMask" maskUnits="userSpaceOnUse" x="-140" y="-140" width="280" height="280">
+<rect x="-140" y="-140" width="280" height="280" fill="black"/>
+<circle cx="0" cy="0" r="98" fill="white"/>
+<circle cx="0" cy="0" r="52" fill="black"/>
+<path d="M-10 -56L84 -66L48 10L-22 10L-10 -56Z" fill="white"/>
+<rect x="-62" y="-88" width="26" height="84" rx="6" transform="rotate(49 -62 -88)" fill="black"/>
+<rect x="-103" y="-10" width="22" height="68" rx="6" transform="rotate(56 -103 -10)" fill="black"/>
+<rect x="-10" y="-8" width="24" height="86" rx="6" transform="rotate(56 -10 -8)" fill="black"/>
+<circle cx="0" cy="-102" r="7" fill="black"/>
+<circle cx="92" cy="-34" r="6" fill="black"/>
+<circle cx="82" cy="68" r="6" fill="black"/>
+<circle cx="-14" cy="102" r="6" fill="black"/>
+<circle cx="-96" cy="34" r="6" fill="black"/>
+</mask>
+<g id="refinedMark">
+<rect x="-110" y="-110" width="220" height="220" fill="url(#brandGradient)" mask="url(#logoMask)"/>
+<circle cx="0" cy="0" r="98" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+<path d="M-55 -59L-12 -100L24 -68L-14 -28L-55 -59Z" fill="white" fill-opacity="0.08"/>
+<path d="M10 -50L70 -58L48 -12L-2 -10L10 -50Z" fill="white" fill-opacity="0.06"/>
+</g>
+</defs>
+
+<rect width="1600" height="600" fill="#F8F8FC"/>
+<rect y="600" width="1600" height="600" fill="#040404"/>
+
+<g transform="translate(280 250)" filter="url(#softShadow)">
+<use href="#refinedMark"/>
+</g>
+<rect x="430" y="142" width="8" height="218" rx="4" fill="url(#brandGradient)"/>
+<text x="470" y="252" fill="#4219B8" font-size="94" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">ELFAIDYDEV</text>
+<text x="470" y="320" fill="#7259D8" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">CLOSER TO THE CURRENT LOGO SHAPE</text>
+
+<g transform="translate(280 850)">
+<rect x="-110" y="-110" width="220" height="220" fill="url(#aquaGradient)" mask="url(#logoMask)"/>
+<circle cx="0" cy="0" r="98" fill="none" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+<path d="M-55 -59L-12 -100L24 -68L-14 -28L-55 -59Z" fill="white" fill-opacity="0.1"/>
+<path d="M10 -50L70 -58L48 -12L-2 -10L10 -50Z" fill="white" fill-opacity="0.08"/>
+</g>
+<rect x="430" y="742" width="8" height="218" rx="4" fill="url(#aquaGradient)"/>
+<text x="470" y="852" fill="url(#aquaGradient)" font-size="94" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">ELFAIDYDEV</text>
+<text x="470" y="920" fill="#8DEFD9" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">SAME IDENTITY WITH A SUBTLE MECHANICAL FEEL</text>
+</svg>
