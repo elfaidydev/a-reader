@@ -1,0 +1,57 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#6A5CFF"/>
+<stop offset="100%" stop-color="#3A0CA3"/>
+</linearGradient>
+<linearGradient id="aquaGradient" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#6EE7FF"/>
+<stop offset="100%" stop-color="#7BFFB0"/>
+</linearGradient>
+<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#2F0B85" flood-opacity="0.18"/>
+</filter>
+<g id="mark">
+<circle cx="0" cy="0" r="104" fill="url(#brandGradient)"/>
+<circle cx="0" cy="0" r="104" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+<path d="M-28 -84L-4 -102L20 -84L4 -52H-20L-28 -84Z" fill="white" fill-opacity="0.95"/>
+<path d="M14 -50L82 -62L48 8L-8 -4L14 -50Z" fill="white" fill-opacity="0.95"/>
+<path d="M-72 24L-22 -12L54 18L8 72L-56 58L-72 24Z" fill="white" fill-opacity="0.95"/>
+<circle cx="0" cy="0" r="54" fill="url(#brandGradient)"/>
+<path d="M-2 -100L16 -92L4 -74L-12 -82L-2 -100Z" fill="white" fill-opacity="0.12"/>
+<path d="M78 -22L88 -4L68 8L58 -10L78 -22Z" fill="white" fill-opacity="0.12"/>
+<path d="M60 70L42 80L30 60L48 50L60 70Z" fill="white" fill-opacity="0.12"/>
+<path d="M-18 96L-36 88L-26 68L-8 76L-18 96Z" fill="white" fill-opacity="0.12"/>
+<path d="M-92 20L-100 2L-80 -10L-72 8L-92 20Z" fill="white" fill-opacity="0.12"/>
+<path d="M-74 -64L-56 -74L-44 -54L-62 -44L-74 -64Z" fill="white" fill-opacity="0.12"/>
+</g>
+</defs>
+
+<rect width="1600" height="600" fill="#F7F7FB"/>
+<rect y="600" width="1600" height="600" fill="#050505"/>
+
+<g transform="translate(280 250)" filter="url(#softShadow)">
+<use href="#mark"/>
+</g>
+<rect x="430" y="140" width="8" height="220" rx="4" fill="url(#brandGradient)"/>
+<text x="470" y="252" fill="#3F18B0" font-size="94" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">ELFAIDYDEV</text>
+<text x="470" y="320" fill="#7057D5" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="600" letter-spacing="6">SHARP DIGITAL IDENTITY</text>
+
+<g transform="translate(280 850)">
+<circle cx="0" cy="0" r="104" fill="url(#aquaGradient)"/>
+<circle cx="0" cy="0" r="104" fill="none" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+<path d="M-28 -84L-4 -102L20 -84L4 -52H-20L-28 -84Z" fill="#050505" fill-opacity="0.96"/>
+<path d="M14 -50L82 -62L48 8L-8 -4L14 -50Z" fill="#050505" fill-opacity="0.96"/>
+<path d="M-72 24L-22 -12L54 18L8 72L-56 58L-72 24Z" fill="#050505" fill-opacity="0.96"/>
+<circle cx="0" cy="0" r="54" fill="#050505"/>
+<path d="M-2 -100L16 -92L4 -74L-12 -82L-2 -100Z" fill="white" fill-opacity="0.18"/>
+<path d="M78 -22L88 -4L68 8L58 -10L78 -22Z" fill="white" fill-opacity="0.18"/>
+<path d="M60 70L42 80L30 60L48 50L60 70Z" fill="white" fill-opacity="0.18"/>
+<path d="M-18 96L-36 88L-26 68L-8 76L-18 96Z" fill="white" fill-opacity="0.18"/>
+<path d="M-92 20L-100 2L-80 -10L-72 8L-92 20Z" fill="white" fill-opacity="0.18"/>
+<path d="M-74 -64L-56 -74L-44 -54L-62 -44L-74 -64Z" fill="white" fill-opacity="0.18"/>
+</g>
+<rect x="430" y="740" width="8" height="220" rx="4" fill="url(#aquaGradient)"/>
+<text x="470" y="852" fill="url(#aquaGradient)" font-size="94" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">ELFAIDYDEV</text>
+<text x="470" y="920" fill="#8DEBD8" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="600" letter-spacing="6">GEAR INSPIRED MODERN TECH MARK</text>
+</svg>
